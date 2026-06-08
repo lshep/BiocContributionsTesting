@@ -526,8 +526,9 @@ def finalize(failures, package_name=None, skip_duplicates=False, owner=None, rep
         if not has_label("policies-accepted"):
             post_comment(message)
             add_label("awaiting policy acceptance")
+        old_old = False
         if package_name:
-            on_old <- package_exists(package_name)
+            on_old = package_exists(package_name)
             if on_old:
                 add_label("administration required") 
         sys.exit(0)
