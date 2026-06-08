@@ -1,4 +1,3 @@
 package_name,repo_full,submitter,issue_number,last_sha,last_version,last_valid_version
 LoriTestPkg4,lshep/LoriTestPkg4,lshep,21,d135b5dd3ba24f53eb26be43540eea0a963fd3fd,0.99.5,0.99.5
 LoriTestPkg5,lshep/LoriTestPkg5,lshep,1,,0.99.9,0.99.9
-spbtest3,Bioconductor/spbtest3,lshep,2,,0.99.119,0.99.119
